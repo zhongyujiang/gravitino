@@ -246,7 +246,7 @@ public class GravitinoInterceptionService implements InterceptionService {
               case USER:
                 nameIdentifierMap.put(
                     Entity.EntityType.USER,
-                    NameIdentifierUtil.ofUser(metadata, entities.get(Entity.EntityType.USER)));
+                    NameIdentifierUtil.ofUser(metalake, entities.get(Entity.EntityType.USER)));
                 break;
               case GROUP:
                 nameIdentifierMap.put(
